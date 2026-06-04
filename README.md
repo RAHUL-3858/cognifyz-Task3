@@ -42,8 +42,6 @@ Task3/
 │
 ├── css/
 │   └── style.css
-│
-└── images/
 ```
 
 ---
