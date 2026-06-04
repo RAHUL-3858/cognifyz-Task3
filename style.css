@@ -1,0 +1,88 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, sans-serif;
+scroll-behavior:smooth;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(
+rgba(0,0,0,0.6),
+rgba(0,0,0,0.6)
+),
+url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600');
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+animation:slideDown 1.5s ease;
+}
+
+.hero p{
+font-size:24px;
+margin-bottom:20px;
+}
+
+@keyframes slideDown{
+
+from{
+opacity:0;
+transform:translateY(-80px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+.service-card{
+transition:0.4s;
+border:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.service-card:hover{
+transform:translateY(-10px);
+}
+
+.team-img{
+width:150px;
+height:150px;
+object-fit:cover;
+border:5px solid #0d6efd;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:36px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+}
