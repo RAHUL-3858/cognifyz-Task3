@@ -168,17 +168,3 @@ Rahul
 Task 3 of Cognifyz Full Stack Development Internship - Advanced CSS Styling, Bootstrap Framework, Responsive Design, Animations, and Professional Landing Page Development.
 
 ---
-
-## Hashtags
-
-#cognifyztechnologies
-#cognifyz
-#cognifyztech
-#FullStackDevelopment
-#HTML
-#CSS
-#Bootstrap
-#ResponsiveDesign
-#WebDevelopment
-#FrontendDevelopment
-#Internship
